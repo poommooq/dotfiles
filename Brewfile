@@ -1,7 +1,8 @@
 cask_args appdir: '/Applications'
 
-#tap 'homebrew/bundle'
-#tap 'caskroom/cask'
+# Should have this already
+# tap 'homebrew/bundle'
+# tap 'caskroom/cask'
 
 brew 'coreutils'
 brew 'moreutils'
@@ -9,34 +10,42 @@ brew 'findutils'
 brew 'ssh-copy-id'
 brew 'wget'
 
+# File compressor
+brew 'p7zip'
+brew 'pigz'
+brew 'zopfli'
+
 # Install more recent versions of some macOS tools.
 brew 'bash'
-brew 'vim'
+brew 'bash-completion@2'
+brew 'vim', args: ['with-override-system-vi']
 brew 'grep'
+brew 'gun-sed'
+brew 'openssl'
 brew 'openssh'
 brew 'screen'
 
-brew 'ack'
-brew 'go'
+# Cool stuff
+# brew 'ack'
+brew 'dark-mode'
 brew 'grc'
-brew 'imagemagick'
-brew 'jp2a'
-brew 'jq'
-brew 'libcaca', args: ['with-imlib2']
-brew 'libgit2'
-brew 'openssl'
-brew 'node'
-brew 'readline'
-brew 'postgresql'
-brew 'puma/puma/puma-dev'
-brew 'ruby-build'
-brew 'rbenv'
-brew 'roundup'
-brew 'spaceman-diff'
-brew 'spark'
-brew 'unrar'
-brew 'yarn'
 brew 'youtube-dl'
+
+# Image stuff
+# brew 'imagemagick'
+# brew 'jp2a'
+# brew 'jq'
+# brew 'libcaca', args: ['with-imlib2']
+
+# brew 'git'
+# brew 'git-lfs'
+# brew 'libgit2'
+# brew 'readline'
+# brew 'rbenv'
+# brew 'pyenv'
+# brew 'spaceman-diff'
+# brew 'spark'
+# brew 'unrar'
 
 # Install Casks
 cask 'atom'
