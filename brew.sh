@@ -119,3 +119,6 @@ fi
 
 # Remove outdated versions from the cellar.
 brew cleanup
+
+# try install pip and virtualenv virtualenvwrapper as a basic
+
