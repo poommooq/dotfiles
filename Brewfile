@@ -37,8 +37,9 @@ brew 'youtube-dl'
 # brew 'jq'
 # brew 'libcaca', args: ['with-imlib2']
 
-# brew 'git'
+brew 'git'
 # brew 'git-lfs'
+brew 'hub'
 # brew 'libgit2'
 # brew 'readline'
 # brew 'rbenv'
