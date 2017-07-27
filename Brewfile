@@ -58,6 +58,7 @@ cask 'arduino'
 cask 'github-desktop'
 
 cask 'virtualbox'
+cask 'virtualbox-extension-pack'
 cask 'vagrant'
 
 # cask 'archiver'
@@ -73,3 +74,4 @@ cask 'handbrake'
 cask 'steam'
 cask 'tunnelbear'
 cask 'vlc'
+cask 'transmission'
