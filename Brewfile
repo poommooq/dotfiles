@@ -30,6 +30,7 @@ brew 'screen'
 brew 'dark-mode'
 brew 'grc'
 brew 'youtube-dl'
+brew 'ffmpeg'
 
 # Image stuff
 # brew 'imagemagick'
