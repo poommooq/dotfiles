@@ -45,6 +45,8 @@ fi;
 complete -W "NSGlobalDomain" defaults;
 
 # Add virtualenv-wrapper source file
+export WORKON_HOME=$HOME/.virtualenvs
+export PROJECT_HOME=$HOME/Code
 source /usr/local/bin/virtualenvwrapper.sh
 
 # Add `killall` tab completion for common apps
