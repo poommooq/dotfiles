@@ -19,6 +19,7 @@ brew 'zopfli'
 brew 'bash'
 brew 'bash-completion@2'
 brew 'vim', args: ['with-override-system-vi']
+brew 'python3'
 brew 'grep'
 brew 'gnu-sed'
 brew 'openssl'
