@@ -65,7 +65,7 @@ cask 'vagrant'
 
 # cask 'archiver'
 cask 'alfred'
-# cask 'caffeine'
+cask 'caffeine'
 cask 'coconutbattery'
 cask 'dropbox'
 # cask 'flux'
