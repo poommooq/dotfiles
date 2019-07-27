@@ -47,6 +47,7 @@ complete -W "NSGlobalDomain" defaults;
 # Add virtualenv-wrapper source file
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/Code
+export VIRTUALENVWRAPPER_PYTHON="$(command \which python3)"
 source /usr/local/bin/virtualenvwrapper.sh
 
 # Add MEGA config

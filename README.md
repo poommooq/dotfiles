@@ -97,6 +97,7 @@ Copy private key to .ssh folder
 ```bash
 cp ~/Dropbox/Key/poommooq ~/.ssh/poommooq
 cp ~/Dropbox/Key/poommooq.pub ~/.ssh/poommooq.pub
+chmod 600 ~/.ssh/poommooq
 ```
 
 Without your private key, SSH login to remote server will need password.
