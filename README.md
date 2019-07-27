@@ -1,4 +1,4 @@
-# Mathias’s dotfiles
+# poommooq’s dotfiles
 
 ![Screenshot of my shell prompt](https://i.imgur.com/EkEtphC.png)
 
@@ -82,6 +82,24 @@ When setting up a new Mac, you may want to install some common [Homebrew](http:/
 ```
 
 Some of the functionality of these dotfiles depends on formulae installed by `brew.sh`. If you don’t plan to run `brew.sh`, you should look carefully through the script and manually install any particularly important ones. A good example is Bash/Git completion: the dotfiles use a special version from Homebrew.
+
+### After completely setup Dropbox
+
+Link Code and Script folders from Dropbox to User's home folder.
+
+```bash
+ln -s ~/Dropbox/Code ~/Code
+ln -s ~/Dropbox/Script ~/Script
+```
+
+Copy private key to .ssh folder
+
+```bash
+cp ~/Dropbox/Key/poommooq ~/.ssh/poommooq
+cp ~/Dropbox/Key/poommooq.pub ~/.ssh/poommooq.pub
+```
+
+Without your private key, SSH login to remote server will need password.
 
 ## Feedback
 
