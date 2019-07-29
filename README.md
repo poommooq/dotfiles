@@ -91,20 +91,20 @@ Install virtualenv
 pip3 install virtualenv virtualenvwrapper
 ```
 
-### After completely setup Dropbox
+### After completely setup Syncthing
 
-Link Code and Script folders from Dropbox to User's home folder.
+Link Code and Script folders from Syncthing to User's home folder.
 
 ```bash
-ln -s ~/Dropbox/Code ~/Code
-ln -s ~/Dropbox/Script ~/Script
+ln -s ~/Sync/Code ~/Code
+ln -s ~/Sync/Script ~/Script
 ```
 
 Copy private key to .ssh folder
 
 ```bash
-cp ~/Dropbox/Key/poommooq ~/.ssh/poommooq
-cp ~/Dropbox/Key/poommooq.pub ~/.ssh/poommooq.pub
+cp ~/Sync/Key/poommooq ~/.ssh/poommooq
+cp ~/Sync/Key/poommooq.pub ~/.ssh/poommooq.pub
 chmod 600 ~/.ssh/poommooq
 ```
 
