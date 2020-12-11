@@ -45,7 +45,7 @@ brew "grc"
 # brew "mitmweb"
 brew 'git'
 # brew 'git-lfs'
-brew 'hub'
+# brew 'hub'
 
 # brew 'libgit2'
 # brew 'readline'
@@ -70,13 +70,13 @@ cask "docker"
 
 cask "alfred"
 cask "balenaetcher"
-cask "bitbar"
+# cask "bitbar"
 # cask "caffeine"
 cask "coconutbattery"
 cask "dropbox"
 cask "gswitch"
-cask "macs-fan-control"
-cask "mounty"
+# cask "macs-fan-control"
+# cask "mounty"
 cask "paparazzi"
 cask "gimp"
 cask "google-chrome"
@@ -86,6 +86,7 @@ cask "syncthing"
 cask "timemachineeditor"
 cask "transmission"
 cask "tunnelbear"
+cask "turbo-boost-switcher"
 cask "vlc"
 cask "the-unarchiver"
 
